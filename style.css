@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#research-bar {
+    height: 50px;
+    line-height: 50px;
+}
+
+.animal {
+    color: blue;
+}
+
+.vegetable {
+    color: orange;
+}
+
+.user {
+    color: purple;
+}
