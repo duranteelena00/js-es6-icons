@@ -138,12 +138,13 @@ function printElementsTemplate(arr, placeholder) {
   placeholder.innerHTML = Template;
 }
 
+printElementsTemplate(icons, display);
+
 //Filter all the cards
 selectField.addEventListener("change", function () {
   const userSelection = selectField.value;
   if (userSelection === "all") {
     //Print all the cards
-    //! error: doesn't print all the cards when selected "all"
     printElementsTemplate(icons, display);
     return;
   }
